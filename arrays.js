@@ -32,35 +32,35 @@
 
 // console.log(find);
 
-// var wizards = [
-//   {
-//     name: "Harry Potter",
-//     house: "Gryfindor",
-//   },
-//   {
-//     name: "Cedric Diggory",
-//     house: "Hufflepuff",
-//   },
-//   {
-//     name: "Tonks",
-//     house: "Hufflepuff",
-//   },
-//   {
-//     name: "Ronald Weasley",
-//     house: "Gryfindor",
-//   },
-//   {
-//     name: "Hermione Granger",
-//     house: "Gryfindor",
-//   },
-// ];
+var wizards = [
+  {
+    name: "Harry Potter",
+    house: "Gryfindor",
+  },
+  {
+    name: "Cedric Diggory",
+    house: "Hufflepuff",
+  },
+  {
+    name: "Tonks",
+    house: "Hufflepuff",
+  },
+  {
+    name: "Ronald Weasley",
+    house: "Gryfindor",
+  },
+  {
+    name: "Hermione Granger",
+    house: "Gryfindor",
+  },
+];
 
-// let hufflepuff = wizards.reduce((newArr, wizard) => {
-//   newArr.push(wizard.name.toLowerCase());
-//   return newArr;
-// }, []);
+let hufflepuff = wizards.reduce((newArr, wizard) => {
+  newArr.push(wizard.name.toLowerCase());
+  return newArr;
+}, []);
 
-// console.log(hufflepuff);
+console.log(hufflepuff);
 
 sampleArr = [];
 for (let i = 0; i < 101; i++) {
