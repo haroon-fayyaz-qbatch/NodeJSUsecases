@@ -84,3 +84,6 @@ var jsonObject = {
 for (let key in jsonObject) {
   console.log(jsonObject[key].roomSize);
 }
+
+//clone an array of objects
+cloneA = sampleArr.slice();
