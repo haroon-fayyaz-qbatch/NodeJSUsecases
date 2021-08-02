@@ -17,8 +17,8 @@ const con = _.concat(arrChunk, 3, 43);
 
 console.log(con);
 
-// difference create an array with values included in the passed array
-console.log(_.difference(arr, ["a"]));
+// difference create an array with values not included in the passed array
+console.log(`Difference: ${_.difference(arr, ["a"])}`);
 
 console.log(_.differenceBy([3.9, 2.21, 3.8], [2.3], Math.floor));
 
